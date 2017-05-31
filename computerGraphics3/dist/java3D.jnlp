@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="java3D.jnlp">
+  <information>
+    <title>java3D</title>
+    <vendor>hasal</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="java3D.jar" size="10780" download="eager" />
+    <jar href="lib\j3dcore.jar" size="2959771" download="eager" />
+    <jar href="lib\j3dutils.jar" size="1703580" download="eager" />
+    <jar href="lib\vecmath.jar" size="325572" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="java3D" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="java3d.Java3D"  name="java3D" />
+  <update check="always"/>
+</jnlp>
